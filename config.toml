@@ -23,4 +23,4 @@ url = "https://observe.lilypad.tech"
 token = "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJ1c2VyIjoicmVzb3VyY2UtcHJvdmlkZXIifQ.n36M_ngwC4XPQ_pEkkWAnPiOinnx6-0VO1v_WgCTUEERD7b_p9KHCU6SY5bUdFh5UXRZHAhc1gfyc7rjAnmeDQ"
 
 [offer]
-modules=github.com/Lilypad-Tech/lilypad-module-cowsay:v0.0.4, https://github.com/Lilypad-Tech/lilypad-module-sdxl-pipeline:v1.2.0
+modules = "github.com/Lilypad-Tech/lilypad-module-cowsay:v0.0.4, https://github.com/Lilypad-Tech/lilypad-module-sdxl-pipeline:v1.2.0"
