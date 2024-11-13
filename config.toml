@@ -16,7 +16,7 @@ jobcreator_address = "0xDBA89e33EFE2eD227c04CB31356EFdE618d4953F"
 pow_address = "0x8B852BA45293d6dd51B10c57625C6c5f25ADFB40"
 
 [ipfs]
-addr = "/ip4/127.0.0.1/tcp/5001"
+addr = "/dns4/ipfs/tcp/5001"
 
 [telemetry]
 url = "https://observe.lilypad.tech"
