@@ -1,19 +1,19 @@
 [services]
-solver = "0xe05e1b71955da4934938a6b16f97e1db9de6b764"
+solver = "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC"
 mediator = ["0x7B49d6ee530B0A538D26E344f3B02E79ACa96De2"]
 api_host = "https://api-testnet.lilypad.tech/"
 
 [web3]
-rpc_url = "wss://arbitrum-sepolia-rpc.publicnode.com,wss://rpc.ankr.com/arbitrum_sepolia,wss://arbitrum-sepolia.drpc.org/,wss://testnet-rpc.etherspot.io/v1/421614,wss://endpoints.omniatech.io/v1/arbitrum/sepolia/public"
-chain_id = 421614
-controller_address = "0x4a83270045FB4BCd1bdFe1bD6B00762A9D8bbF4E"
-payments_address = "0xdE7CEa09A23e7Aa4980B95F69B8912F39A0e323A"
-storage_address = "0x8d06cEB457d336c6c938FCe9C4862615a4F79af0"
-users_address = "0x90ed1AC9c74B9340468134F8c669BA1169A11c58"
-token_address = "0x0352485f8a3cB6d305875FaC0C40ef01e0C06535"
-mediation_address = "0xD1377D4617CD634426A8b595507fd2045A2DFB03"
-jobcreator_address = "0xDBA89e33EFE2eD227c04CB31356EFdE618d4953F"
-pow_address = "0x8B852BA45293d6dd51B10c57625C6c5f25ADFB40"
+rpc_url = "ws://wss.orbit.arsenum.com"
+chain_id = 95873066572
+controller_address = "0xdF2bc8d64A869eF4605BA821cE7183A702D5Bf72"
+payments_address = "0xE7FdFfD56797a6E6024a09bd168effCa6C5208cE"
+storage_address = "0xDf9EAf5f1020d75c502DC66FFCC43a634E10017b"
+users_address = "0x3f4048eBDB5C853EDBe30843f8e8e6CC9aFfAbFe"
+token_address = "0x2B0722b2C623b19aDA2ec56D50487203a7475C38"
+mediation_address = "0xe4d7E958651fFc58e8D3985BC193198BB5Ff2af7"
+jobcreator_address = "0x5a6d1D3E7e16Dc69d61232A395773301b4580849"
+pow_address = "0x7cFA21dB253afBcD9AaCf2dE58FC3C0e9D1a9149"
 
 [ipfs]
 addr = "/dns4/ipfs/tcp/5001"
@@ -24,3 +24,6 @@ token = "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJ1c2VyIj
 
 [offer]
 modules = "github.com/Lilypad-Tech/lilypad-module-cowsay:v0.0.4, https://github.com/Lilypad-Tech/lilypad-module-sdxl-pipeline:v1.2.0"
+
+[disable]
+telemetry=1
