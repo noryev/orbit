@@ -4,7 +4,7 @@ mediator = ["0x7B49d6ee530B0A538D26E344f3B02E79ACa96De2"]
 api_host = "https://api-testnet.lilypad.tech/"
 
 [web3]
-rpc_url = "ws://wss.orbit.arsenum.com"
+rpc_url = "wss://wss.orbit.arsenum.com"
 chain_id = 68283778764
 controller_address = "0xa85233C63b9Ee964Add6F2cffe00Fd84eb32338f"
 payments_address = "0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6"
