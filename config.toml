@@ -24,7 +24,7 @@ token = "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJ1c2VyIj
 
 [offer]
 gpu=1
-modules = "github.com/Lilypad-Tech/lilypad-module-cowsay:v0.0.4, https://github.com/Lilypad-Tech/lilypad-module-sdxl-pipeline:v1.2.0"
+modules = "github.com/Lilypad-Tech/lilypad-module-cowsay:v0.0.4, https://github.com/Lilypad-Tech/lilypad-module-sdxl-pipeline:v1.2.0, "
 
 [disable]
 telemetry=1
